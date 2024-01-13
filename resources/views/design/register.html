@@ -1,0 +1,72 @@
+<!--doctype html-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Blog Section</title>
+    <!--Stylesheet----------------------------------->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!--fav-icon------------------------------------->
+    <link rel="shortcut icon" href="images/fav-icon.svg" />
+    <!--poppins-font-family-------------------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--blog-section============================================================================-->
+    <header>
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="#">All Blog</a>
+            <a href="#">About</a>
+            <a href="login.html" class="login-menu">Login</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <main>
+        <section id="container">
+            <div class="form-area">
+                <div class="form-title">
+                    <h2>Registration</h2>
+                </div>
+                <form action="" class="register-form">
+                    <div class="form-item">
+                        <label for="full_name">Name:</label>
+                        <input type="text" name="full_name" id="full_name" placeholder="Full name">
+                    </div>
+                    <div class="form-item">
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" id="email" placeholder="Email address">
+                    </div>
+                    <div class="form-item">
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password" placeholder="Password">
+                    </div>
+                    <div class="form-item">
+                        <label for="confirm_password">Confirm Password:</label>
+                        <input type="password" name="confirm_password" id="confirm_password"
+                            placeholder="confirm Password">
+                    </div>
+                    <button class="form-button" type="submit">Register</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© All Rights Reserved</p>
+    </footer>
+
+    <!-- scripts -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
